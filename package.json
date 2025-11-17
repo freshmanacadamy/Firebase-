@@ -1,0 +1,26 @@
+{
+  "name": "firebase-user-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot to test Firebase user data upload",
+  "main": "api/bot.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/bot.js",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "firebase-admin": "^11.11.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "firebase",
+    "vercel"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
